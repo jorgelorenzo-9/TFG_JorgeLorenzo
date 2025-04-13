@@ -1,1 +1,17 @@
 # TFG_JorgeLorenzo
+
+Archivos utilizados:
+
+- `representaciones_enventanado.ipynb`: Este notebook muestra detalladamente el proceso de enventanado del tráfico original. 
+  
+- `diffs_finitas_semana.ipynb`:
+
+- `svm_meseta.ipynb`: Muestra los resultados del clasificador para el ataque de meseta. Se entrena tanto con regresión logística como con SVM, mostrando las distintas métricas obtenidas, la matriz de confusión de cada caso y su curva ROC. En este notebook se generan también alguna de las series necesarias con ataque de meseta para posteriormente realizar el entrenamiento de la SVM con variación de intensidades. 
+
+- `svm_rampa.ipynb`: Este notebook realiza las mismas tareas que el notebook `svm_meseta.ipynb` pero para el ataque en rampa.
+
+- `svm_alfa.ipynb`: Este notebook realiza las mismas tareas que los notebooks `svm_meseta.ipynb` y `svm_rampa.ipynb` pero para el ataque generado usando alfa estables.
+
+- `svm_cambio_intensidades.ipynb`:
+
+- `utilities.py`: Este script contiene diversas funciones creadas que sirven principalmente para realizar el enventanado de los datos en python. También hay funciones para realizar el suavizado de series, en caso de que sea necesario.
