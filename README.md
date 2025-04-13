@@ -7,7 +7,7 @@ Archivos utilizados:
 
 - `representaciones_enventanado.ipynb`: Este notebook muestra detalladamente el proceso de enventanado del tráfico original. 
   
-- `diffs_finitas_semana.ipynb`: Se realiza todo el desarrollo de los datos realizando distintas pruebas. Se aplica el ataque a cada una de las ventanas para después concatenarlas y aplicar las diferencais finitas a las series concatenadas. Además, se aplican parámetros estadísticos como la media, desviación estándar, curtosis y skew usando ventanas deslizantes para ver ayudan a detectar ataques.
+- `diffs_finitas_semana.ipynb`: Se realiza todo el desarrollo de los datos realizando distintas pruebas. Se aplica el ataque a cada una de las ventanas para después concatenarlas y aplicar las diferencais finitas a las series concatenadas. Además, se aplican parámetros estadísticos como la media, desviación estándar, curtosis y skew usando ventanas deslizantes para ver si ayudan a detectar ataques.
 
 - `svm_meseta.ipynb`: Muestra los resultados del clasificador para el ataque de meseta. Se entrena tanto con regresión logística como con SVM, mostrando las distintas métricas obtenidas, la matriz de confusión de cada caso y su curva ROC. En este notebook se generan también alguna de las series necesarias con ataque de meseta para posteriormente realizar el entrenamiento de la SVM con variación de intensidades. 
 
