@@ -1,5 +1,8 @@
 # TFG_JorgeLorenzo
 
+Este repositorio presenta los archivos utilizados para el desarrollo del Trabajo de Fin Grado de Ingeniería de Tecnologías y Servicios de Telecomunicación titulado "Estudio de detección de anomalías de tráfico de red utilizando diferencias finitas".
+
+
 Archivos utilizados:
 
 - `representaciones_enventanado.ipynb`: Este notebook muestra detalladamente el proceso de enventanado del tráfico original. 
