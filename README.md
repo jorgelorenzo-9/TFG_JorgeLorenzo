@@ -15,3 +15,5 @@ Archivos utilizados:
 - `svm_cambio_intensidades.ipynb`:
 
 - `utilities.py`: Este script contiene diversas funciones creadas que sirven principalmente para realizar el enventanado de los datos en python. También hay funciones para realizar el suavizado de series, en caso de que sea necesario.
+
+- `matlab/`: Carpeta que contiene los scripts implementados en matlab. El script `obtencion_ataque_alfa.m` sirve para generar las series de ataque usando alfa estables. Para ello es necesario el uso de `centroide_objetivo.mat`. El script `alpha_fit_normalize_deslizantes.m` se usa para obtener los parámetros alfa estables de las series concatenadas con diferencias finitas. Los parámetros obtenidos se utilizarán posteriormente para clasificar las series en ataque o no ataque mediante regresión logística y SVM.
