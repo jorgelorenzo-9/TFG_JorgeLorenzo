@@ -15,7 +15,7 @@ Archivos utilizados:
 
 - `svm_alfa.ipynb`: Realiza las mismas tareas que los notebooks `svm_meseta.ipynb` y `svm_rampa.ipynb` pero para el ataque generado usando alfa estables.
 
-- `svm_cambio_intensidades.ipynb`: Muestra los detalles de cada una de las series con variación de intensidad generadas. Se calcula tanto la suma total de los bits, como la energía, como la media. Desués, se muestra la comparación de energía para cada caso de variación, siendo la última gráfica del notebook la más óptima.
+- `svm_cambio_intensidades.ipynb`: Muestra los detalles de cada una de las series con variación de intensidad generadas. Se calcula tanto la suma total de los bits, como la energía, como la media. Después, se muestra la comparación de energía para cada caso de variación, siendo la última gráfica del notebook la más óptima.
 
 - `utilities.py`: Este script contiene diversas funciones creadas que sirven principalmente para realizar el enventanado de los datos en python. También hay funciones para realizar el suavizado de series, en caso de que sea necesario.
 
